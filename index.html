@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Technologies</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><u>WEB</u></h1>
+    </header>
+
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li><a href="#html1" onclick="showSection('html1')">HTML</a></li>
+          <li><a href="#css1" onclick="showSection('css1')">CSS</a></li>
+          <li><a href="#js1" onclick="showSection('js1')">JavaScript</a></li>
+        </ul>
+      </div>
+
+      <section class="body-data">
+        <div class="content" id="html1">
+          <img src="./video.png" alt="Placeholder" class="video-image" />
+          <p>
+            Hypertext Markup Language (HTML) is the standard language for
+            creating web pages and web applications.
+          </p>
+        </div>
+
+        <div class="content" id="css1">
+          <img src="./video.png" alt="Placeholder" class="video-image" />
+          <p>
+            Cascading Style Sheets (CSS) is a style sheet language used for
+            describing the presentation of a document written in a markup
+            language like HTML.
+          </p>
+        </div>
+
+        <div class="content" id="js1">
+          <img src="./video.png" alt="Placeholder" class="video-image" />
+          <p>
+            JavaScript is a programming language commonly used in web
+            development to create interactive effects within web browsers.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
